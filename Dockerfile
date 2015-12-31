@@ -1,7 +1,7 @@
 FROM phusion/baseimage:0.9.16
 CMD ["/sbin/my_init"]
 
-MAINTAINER Leigh McCulloch
+MAINTAINER Leigh McCulloch / Forked by Ryan Carey
 
 # Upload Unison for building
 COPY unison-2.40.102.tar.gz /tmp/unison/
