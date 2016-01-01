@@ -12,7 +12,4 @@ do
   if [ -f unison-fsmonitor ]; then
     cp unison-fsmonitor /bin/"$UNISON_RELEASE-fsmonitor"
   fi
-  if [ -f /bin/unison-"$UNISON_VERSION"-fsmonitor ]; then
-  	ln -s -f /bin/unison-"$UNISON_VERSION"-fsmonitor /bin/unison-fsmonitor
-  fi
 done
