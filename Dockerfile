@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.16
+FROM phusion/baseimage:0.9.18
 CMD ["/sbin/my_init"]
 
 MAINTAINER Leigh McCulloch / Forked by Ryan Carey
